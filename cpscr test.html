@@ -1,0 +1,232 @@
+<html>
+<head>
+<title> cpscr </title>
+<link rel="stylesheet" href="main copy.css"/>
+
+
+<script type="text/javascript">
+var slideimages = new Array()
+slideimages[0] = new Image() 
+slideimages[0].src = "2.jpg"
+slideimages[1] = new Image()
+slideimages[1].src = "3.jpg"
+slideimages[2] = new Image()/*javascript er kaj egula slideshow code*/
+slideimages[2].src = "4.jpg"
+slideimages[3] = new Image()
+slideimages[3].src = "5.jpg"
+</script>
+</head>
+
+<body> 
+
+
+<div id="any">
+<header id="tuna">
+<h1> Rajshahi Cantonment Public School & College  </h1>
+</header>
+<img src="cpscr logo.png" />
+</div>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='cpscr test.html'><span>Home</span></a></li>
+   <li><a href='#'><span>admission</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Secondary</span></a>
+            <ul>
+               <li><a href='psc.html'><span>PSC</span></a></li>
+               <li class='last'><a href='Admission.html'><span>Class 1</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Higher Secondary</span></a>
+            <ul>
+               <li><a href='#'><span>JSC</span></a></li>
+               <li class='last'><a href='#'><span>HSC</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='notice.html'><span>Notices</span></a></li>
+   <li><a href='faculty.html'><span>Faculties</span></a></li>
+   <li><a href='about.html'><span>About</span></a></li>
+</ul>
+</div>
+
+<marquee scrolldelay="25" scrollamount="3" width="98%" bgcolor="#009900" > <h1> <a href="index.html"> index no of candidate for MATH teacher </a> 
+</h1>  </marquee> </td>
+
+
+
+<section id="section"> 
+<img src="2.jpg"  id="slide" width="1400"  height="500"/>
+</section>
+<article>
+
+<h1 class="sec"><font color="#FF0000"> welcome to cpscr...</font></h1>
+<p>For grooming a child along with teachers and teaching aids, a perfect learning environment is a prerequisite. In juxtaposition to ensure need-base education, Rajshahi Cantonment Public School & College rears moral values and creates environment for moral teaching. The institution has science laboratories, language club, computer club, debate club, cultural club, games and sports club related to academic curricula. It is committed to be flourished as a hub of education services. Besides these, the concept of the house stimulates a healthy and competitive team spirit amongst the students. The houses named after the major rivers of Rajshahi Division. These are the Padma, the Tista, the Jamuna and the Dharla. Inter-House competitions, such as, debate, recitation, music, games and sports, wall-magazine, arts and crafts etc. is conducted regularly. Our other facilities are canteen service, Pure Drinking Water Service, Library, Family Security Project, Science Laboratory, Computer Laboratory, Mobile Banking, Automation Management, SMS Service, Website etc. Finally, it is a great privilege to lead this remarkable institution and I am optimistic that our joint effort can help us achieve a leading position in the field of education in the country.
+</p>
+</article>
+
+
+<div id="message">
+<header id="pmsg">
+<h2> <font color="#CC0000"> PRINCIPAL's message </font> </h2> 
+<img src="principal.jpg" width="500" height="250"> 
+<p id="msgp">
+Welcome to our website. It is a pleasure to share our views and thoughts through this website.<br> Our mission is to mould a child into a complete human being. For grooming a child along with<br> teachers and teaching aids, a perfect learning environment is a prerequisite. In juxtaposition to<br> ensure need-base education, Rajshahi Cantonment Public School & College rears moral values<br> and creates environment for moral teaching. The institution has science laboratories, language club,<br> computer club, debate club, cultural club, games and sports club related to academic curricula...........
+</p> 
+<a href="principal's msg.html"> see more </a> 
+
+
+
+<center id="cal">
+<h3> Academic Calendar </h3>
+<script language="javascript" type="text/javascript">
+var day_of_week = new Array('Sun','Mon','Tue','Wed','Thu','Fri','Sat');
+var month_of_year = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+var Calendar = new Date();
+var year = Calendar.getFullYear();   
+var month = Calendar.getMonth(); 
+var today = Calendar.getDate();    
+var weekday = Calendar.getDay();    
+
+var DAYS_OF_WEEK = 7;    
+var DAYS_OF_MONTH = 31;   
+var cal;    
+
+Calendar.setDate(1);   
+Calendar.setMonth(month);    
+
+var TR_start = '<TR>';
+var TR_end = '</TR>';
+var highlight_start = '<TD WIDTH="30"><TABLE CELLSPACING=0 BORDER=1 BGCOLOR=DEDEFF BORDERCOLOR=CCCCCC><TR><TD WIDTH=20><B><CENTER>';
+var highlight_end   = '</CENTER></TD></TR></TABLE></B>';
+var TD_start = '<TD WIDTH="30"><CENTER>';
+var TD_end = '</CENTER></TD>';
+
+
+cal =  '<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BORDERCOLOR=BBBBBB><TR><TD>';
+cal += '<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>' + TR_start;
+cal += '<TD COLSPAN="' + DAYS_OF_WEEK + '" BGCOLOR="#EFEFEF"><CENTER><B>';
+cal += month_of_year[month]  + '   ' + year + '</B>' + TD_end + TR_end;
+cal += TR_start;
+
+for(index=0; index < DAYS_OF_WEEK; index++)
+{
+
+if(weekday == index)
+cal += TD_start + '<B>' + day_of_week[index] + '</B>' + TD_end;
+
+else
+cal += TD_start + day_of_week[index] + TD_end;
+}
+
+cal += TD_end + TR_end;
+cal += TR_start;
+
+for(index=0; index < Calendar.getDay(); index++)
+cal += TD_start + '  ' + TD_end;
+
+for(index=0; index < DAYS_OF_MONTH; index++)
+{
+if( Calendar.getDate() > index )
+{
+  week_day =Calendar.getDay();
+
+  if(week_day == 0)
+  cal += TR_start;
+
+  if(week_day != DAYS_OF_WEEK)
+  {
+
+  var day  = Calendar.getDate();
+
+  if( today==Calendar.getDate() )
+  cal += highlight_start + day + highlight_end + TD_end;
+
+  else
+  cal += TD_start + day + TD_end;
+  }
+
+  if(week_day == DAYS_OF_WEEK)
+  cal += TR_end;
+  }
+
+  Calendar.setDate(Calendar.getDate()+1);
+
+}
+
+cal += '</TD></TR></TABLE></TABLE>';
+
+document.write(cal);
+/* calendar er kaj ses*/
+
+</script>
+</center>
+
+  
+</header>
+
+
+<header id="vision"> 
+<h3> <font color="#FF0000"> OUR VISION </font> </h3> 
+<img src="faculties 2.jpg" width="500" height="250">
+<p> CANTOMENT PUBLICK SCHOOL $ COLLEGE ESTABLISHED<br> IN 2013 WITH THE GOAL TO NURISH<br> THE KIDS OF THIS COUNTRY TO MAKE<br> A BETTER...............<br> </p>
+<a href="vision.html"> read more </a>
+</header>
+</div>
+
+
+<script type="text/javascript">
+var step=0
+function slideit(){
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ if (step<3)
+  step++
+ else
+  step=0
+ setTimeout("slideit()",3000)
+}
+slideit()
+</script>
+
+
+
+
+
+<aside id="side_bar">
+<h3><font color="#FF0000"> <font size="+6"> events & notices </font> </font></h3> 
+<p>
+<ul>
+<li> <a href="admission.html"> admission test of class 1 </a>  </li>
+<li> <a href="victory day.html">  Victory day programme </a> </li>
+<li> <a href="index.html"> index no of candidate for MATH teacher </a>  </li>
+<li> <a href="syllabus of year final 2015.html"> syllabus of year final 2015 </a> </li>
+<li> <a href="routine.html"> class routine </a> </li>
+</ul>
+</p>
+
+<br>
+<h2>
+
+</h2>
+</aside>
+
+<br>
+
+<div id="foot">
+<footer id="last_part"><br>
+<font color="#FF0000"> copyright by cpscr authority</font>
+<a href="http://www.facebook.com/cpscr"> follow us on <img src="fb.jpg" width="15px" height="15px"> </a> 
+<a href="http://www.educationboard.gov.bd/"> <img src="edu.jpg" width="15px" height="15px"> </a> 
+</footer>
+<div>
+
+
+
+</div>
+</body>
+</html>
