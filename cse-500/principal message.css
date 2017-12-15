@@ -1,0 +1,43 @@
+*{
+margin:10px;
+padding:0px;
+}
+
+body{
+border: 5px solid #FF0000;
+width:1300px;
+height:1500;
+background: #999999;
+}
+
+
+#msg
+{
+background: #00FF00;
+text-align:center;
+font:bold 50px "Times New Roman", Times, serif;
+color: #CCFF00 <--eita font er color control kore -->
+margin:6px;
+border:6px solid black;
+background: #00FF00; <--eita text background er color control kore -->
+padding: 15px;
+}
+
+
+#box p
+{
+font-size: 36px;
+font-style:italic;
+font color: #FF0000;
+font: bold "Times New Roman", Times, serif;
+
+}
+
+#box img
+{
+width: 800px;
+position: relative;
+height: 250px;
+position: relative;
+background: #FF0000;
+}
