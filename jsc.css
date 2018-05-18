@@ -1,0 +1,182 @@
+#tuna h1{
+text-align:center;
+float:right;
+font:bold 50px "Times New Roman", Times, serif;
+color:blue;
+margin:6px;
+border:6px solid black;
+background:white;
+padding: 15px;
+
+}
+
+#tuna img
+{ 
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  position:relative;
+}
+
+body
+{
+border: 5px solid green;
+width:98%;
+height:auto;
+background: #3399FF;
+position: static;
+}
+
+#cssmenu > ul,
+#cssmenu > ul li,
+#cssmenu > ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul {
+  position: relative;
+  
+}
+#cssmenu > ul li {
+  float: left;
+  min-height: 1px;
+  line-height: normal;
+  vertical-align: middle;
+}
+#cssmenu > ul li.hover,
+#cssmenu > ul li:hover {
+  position: relative;
+  cursor: pointer;
+}
+#cssmenu > ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+}
+#cssmenu > ul ul li {
+  float: none;
+}
+#cssmenu > ul ul ul {
+  top: 1px;
+  
+}
+#cssmenu > ul li:hover > ul {
+  visibility: visible;
+  left: 75%;
+}
+/* Align last drop down RTL */
+#cssmenu > ul > li.last ul ul {
+  
+}
+#cssmenu > ul > li.last ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu > ul > li.last {
+  text-align: right;
+}
+/* Theme Styles */
+#cssmenu > ul {
+  border-top: 4px solid #3fa338;
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  background: #FF0000;
+  background: -moz-linear-gradient(top, #1e1e1e 0%, #040404 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e1e1e), color-stop(100%, #040404));
+  background: -webkit-linear-gradient(top, #1e1e1e 0%, #040404 100%);
+  background: linear-gradient(top, #1e1e1e 0%, #040404 100%);
+  width: auto;
+  zoom: 1;
+}
+#cssmenu > ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu > ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu > ul li a {
+  display: inline-block;
+  padding: 10px 22px;
+}
+#cssmenu > ul > li.active,
+#cssmenu > ul > li.active:hover {
+  background-color: #3fa338; /* home button */
+}
+#cssmenu > ul > li > a:link,
+#cssmenu > ul > li > a:active,
+#cssmenu > ul > li > a:visited {
+  color: #ffffff; /* font color of menu */
+}
+#cssmenu > ul > li > a:hover {
+  color: #FF0000; /* menu'r uor mouse nile color change hobe */
+}
+#cssmenu > ul ul ul {
+  top: 0;
+}
+#cssmenu > ul li li {
+  background-color: #000000; /* admission menu er background */
+  font-size: 17px; /* admission dropdown font size */
+}
+#cssmenu > ul li.hover,
+#cssmenu > ul li:hover {
+  background-color: #F5F5F5;
+}
+#cssmenu > ul > li.hover,
+#cssmenu > ul > li:hover {
+  background-color: #3fa338; /* mouse upore nile jei color show kore */
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:k2 inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+}
+#cssmenu > ul a:link,
+#cssmenu > ul a:visited {
+  color: #FF0000; /* font color of drop downs */
+  text-decoration: none;
+}
+#cssmenu > ul a:hover {
+  color: #0000FF;/* drop down selected one blue colored */
+}
+
+}
+#cssmenu > ul ul {
+  border: 1px solid #CCC \9;
+  -webkit-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
+  width: 150px;
+}
+
+#last_part
+{
+text-align:center;
+font-size: 45px;
+margin-top:auto;
+font:bold Arial, Helvetica, sans-serif;
+background-color: #FFFF99;
+}
+
+#vimage
+{
+float:left;
+width: 50%;
+}
+
+#side_bar
+{
+float:right;
+font-size: 25px;
+font-style:normal;
+width:50%;
+length: 180%;
+}
+
+#foot
+{
+margin-top: 800px;
+
+}
